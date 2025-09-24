@@ -32,13 +32,21 @@ We need an **automated, low-cost, real-time system** that:
 ---
 
 ## 📂 Project Structure
-├── notebooks/ # Jupyter notebooks (training/testing)
-├── scripts/ # Python scripts for real-time detection
-├── utils/ # Helper functions
-├── outputs/ # Sample output videos & violation logs
-├── requirements.txt # Python dependencies
-├── report/ # Internship report (PDF)
-└── README.md # Project documentation
+VEHICLE_OVERSPEED_AND_LICENSE_PLATE_DETECTION/
+│
+├── README.md
+├── requirements.txt
+├── main.py
+├── plate.py
+├── plate_train.py
+├── add_missing_data.py
+├── sort.py
+├── util.py
+├── visualize.py
+├── LICENSE
+├── NTPC Project Report.pdf
+├── .gitignore
+└── modules/  # Optional: move helper scripts here
 
 
 
