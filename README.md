@@ -76,6 +76,18 @@ vehicle_id,license_plate,speed_kph,overspeed,timestamp
 Install dependencies
 pip install -r requirements.txt
 
+✅ Explanation of included packages:
+
+ultralytics → YOLOv8 object detection
+easyocr → OCR for license plates
+opencv-python → Video & image processing
+numpy → Numerical operations
+pandas → Logging violations into CSV/Excel
+matplotlib → For plotting/debugging results
+torch, torchvision → Backend for YOLOv8 and EasyOCR
+tqdm → Progress bars during model training/inference
+scipy → Some mathematical helpers (useful for tracking/calibration)
+
 Run detection on sample video
 python scripts/detect_speed_and_plate.py --video sample.mp4 --weights yolov8_best.pt
 
