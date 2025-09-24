@@ -74,38 +74,38 @@ vehicle_id,license_plate,speed_kph,overspeed,timestamp
    git clone https://github.com/<your-username>/vehicle-overspeed-detection.git
    cd vehicle-overspeed-detection
 Install dependencies
-
-
 pip install -r requirements.txt
+
 Run detection on sample video
-
-
 python scripts/detect_speed_and_plate.py --video sample.mp4 --weights yolov8_best.pt
+
 Output:
-
 Annotated video with speed & license plate overlays
-
 violations.csv file with logged over-speeding events
+<img width="917" height="652" alt="Screenshot 2025-09-24 141221" src="https://github.com/user-attachments/assets/3cd60b3a-5482-428c-868d-3418bd0e4a5f" />
+
+<img width="782" height="508" alt="image" src="https://github.com/user-attachments/assets/e7633be2-9867-4ad7-a401-5821f493824f" />
+
 
 📌 Future Improvements
-Better performance in low-light & weather conditions
+   Better performance in low-light & weather conditions
 
-Edge deployment on Jetson Nano/Raspberry Pi
+   Edge deployment on Jetson Nano/Raspberry Pi
 
-Multilingual OCR for Indian plates across regions
+   Multilingual OCR for Indian plates across regions
 
-Integration with traffic police databases for challan automation
+   Integration with traffic police databases for challan automation
 
 Helmet detection & vehicle type classification
 
 📄 License
-This project is released under the MIT License.
+       This project is released under the MIT License.
 
 🙌 Acknowledgments
-NTPC Internship for mentorship & guidance
+    NTPC Internship for mentorship & guidance
 
-Ultralytics YOLOv8
+   Ultralytics YOLOv8
 
-EasyOCR
+   EasyOCR
 
-SORT Tracking
+   SORT Tracking
