@@ -6,6 +6,10 @@ Real-time vehicle speed detection and license plate recognition system using YOL
 This project was developed as part of my **NTPC Internship (Summer 2025)**.  
 It implements a **real-time Vehicle Speed Detection and License Plate Recognition (LPR)** system using **YOLOv8, EasyOCR, and OpenCV**.
 
+
+The dataset and model weights are too large to host on GitHub. Download them here:
+
+Google Drive link:  https://drive.google.com/drive/folders/115tPPiUsn1E5xvMaR0OrVwtqq2Z2fl_T
 ---
 
 ## 🔍 Problem Statement
